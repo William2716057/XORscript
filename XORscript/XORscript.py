@@ -3,12 +3,12 @@
 
 
 def stringtoUni(input):
-
+	#each character of input is converted into unicode format
 	unicode = [ord(char) for char in input]
 
 	return unicode
 
-
+#string to be used as input
 input = "label"
 
 print("input word: ", input)
