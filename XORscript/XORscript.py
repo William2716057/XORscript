@@ -20,16 +20,16 @@ print("input unicode: ",uni_characters)
 
 string = uni_characters
 
-
+#convert the unicode to binary representation
 binary = [bin(num)[2:].zfill(8) for num in string]
 
 print("input binary: ", binary)
 
-
+#XOR key
 XORnum = 13
 
 print("XOR num: ", XORnum)
-
+#Convert XOR key to binary representation
 binary2 = [bin(XORnum)[2:].zfill(8)]
 
 print("XOR binary: ", binary2)
