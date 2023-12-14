@@ -36,10 +36,10 @@ print("XOR binary: ", binary2)
 
 binary2 = binary2 * len(binary)
 
-
+#initialise list
 XORedList = []
 
-
+#Perform XOR operation on each bit of binary representation 
 for i in range(len(binary)):
 
 
@@ -50,13 +50,13 @@ for i in range(len(binary)):
 
 print("XORed result: ", XORedList)
 
-
+#Convert binary to decimals 
 decimals = [int(binary, 2) for binary in XORedList]
 
 
 print("Decimals: ", decimals)
 
-
+#Convert decimals to characters
 text = [chr(decimal) for decimal in decimals]
 
 resultText = ''.join(text)
